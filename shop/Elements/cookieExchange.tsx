@@ -13,7 +13,7 @@ export const CacaoExchange = ({}) => {
 
     return (
         <View style = {styles.shopOfferContainer}>
-            <Image style = {styles.shopOfferPreviewImage} source={require("../../assets/images/cookie-regular.png")} />
+            <Image style = {styles.shopOfferPreviewImage} source={require("../../assets/images/cacao-regular.png")} />
             <Text style = {styles.shopOfferText}>Cacao to Cookies</Text>
             <Text style = {styles.buyButton} onPress={() => {
                 if (cookieExchangeMap.get("cacao") <= cacaoCount){
@@ -39,8 +39,8 @@ export const PeanutExchange = ({}) => {
 
     return (
         <View style = {styles.shopOfferContainer}>
-            <Image style = {styles.shopOfferPreviewImage} source={require("../../assets/images/cookie-regular.png")} />
-            <Text style = {styles.shopOfferText}>Cacao to Cookies</Text>
+            <Image style = {styles.shopOfferPreviewImage} source={require("../../assets/images/peanut-regular.png")} />
+            <Text style = {styles.shopOfferText}>Peanuts to Cookies</Text>
             <Text style = {styles.buyButton} onPress={() => {
                 if (cookieExchangeMap.get("peanut") <= peanutCount){
                     dispatchPeanuts({

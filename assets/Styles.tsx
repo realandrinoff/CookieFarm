@@ -2,17 +2,28 @@ import { StyleSheet } from "react-native";
 import { ShopOfferWindow } from "../shop/Elements/shopOffers";
 
 export const styles = StyleSheet.create({
-  bodyContainer: {
+  bodyContainerLight: {
     backgroundColor: "#fff",
     height: "100%",
     width: "100%",
-
+    display: "flex",
+  },
+  bodyContainerDark: {
+    backgroundColor: "#121212",
+    height: "100%",
+    width: "100%",
+  },
+  textLight: {
+    color: "#121212",
+  },
+  textDark: {
+    color: "#fff",
   },
   mainLogo: {
     marginTop: 100,
     fontFamily: "papyrus",
     fontSize: 50,
-    textAlign: "center"
+    textAlign: "center",
   },
 
   tabName: {
@@ -21,7 +32,7 @@ export const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 50,
     padding: 10,
-    marginTop: 30,
+
     borderRadius: 10,
     color: "#121212",
     fontWeight: "bold",
@@ -81,13 +92,13 @@ export const styles = StyleSheet.create({
     fontFamily: "papyrus",
     fontSize: 40,
     color: "#121212",
-    top: 450,
+    top: 400,
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-end",
   },
   collectButton: {
-    top: 450,
+    top: 400,
     overflow: "hidden",
     justifyContent: "center",
     textAlign: "center",
@@ -99,7 +110,7 @@ export const styles = StyleSheet.create({
   emptystyle: {},
   bakeButton: {
     overflow: "hidden",
-    top: 250,
+    top: 200,
     display: "flex",
     justifyContent: "center",
     textAlign: "center",
@@ -170,13 +181,14 @@ export const styles = StyleSheet.create({
   },
 
   cacaoTree: {
-    marginBottom: 50,
-    marginTop: 50,
+    top: "20%",
     height: 200,
     width: 200,
   },
   cacaoTreeCollectText: {
+    position: "relative",
     fontSize: 50,
+    top: "25%",
     fontFamily: "papyrus",
     textAlign: "center",
   },
@@ -185,7 +197,6 @@ export const styles = StyleSheet.create({
     height: 120,
   },
   allCounters: {
-    
     marginTop: 50,
     height: 60,
     display: "flex",
@@ -223,25 +234,27 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     borderColor: "#000",
     borderRadius: 20,
-    width: 200,
-    height: 200,
+    width: "50%",
+    height: 100,
     marginTop: 50,
     marginBottom: 50,
+    marginLeft: "20%",
+    marginRight: "20%",
   },
   shopOfferText: {
     fontFamily: "papyrus",
-    fontSize: 30,
+    fontSize: 20,
     textAlign: "center",
   },
   shopOfferPreviewImage: {
     alignSelf: "center",
-    width: 100,
-    height: 100,
+    width: 80,
+    height: 80,
   },
   shopOffersContainer: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "space-around",
   },
   buyButton: {
     fontFamily: "papyrus",
@@ -295,18 +308,23 @@ export const styles = StyleSheet.create({
   exchangeContainer: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "space-around",
   },
 
+  settingsMenu: {
+    display: "flex",
+    flexDirection: "column-reverse",
+    height: "100%",
+    width: "100%",
+  },
+  
   resetButtonText: {
     fontFamily: "papyrus",
     borderColor: "red",
     borderWidth: 3,
-    borderRadius: 20,
-    textAlign: "center",
-    fontSize: 40,
-    textAlignVertical: "center",
-  
+    borderRadius: 10,
+    fontSize: 30,
+    alignSelf: "center"
   },
   noWebSupport: {
     top: "50%",
@@ -317,9 +335,9 @@ export const styles = StyleSheet.create({
   },
 
   credits: {
-    fontFamily: 'papyrus',
+    fontFamily: "papyrus",
     fontSize: 20,
-    textAlign: 'center',
+    textAlign: "center",
     top: "82%",
-  }
+  },
 });
