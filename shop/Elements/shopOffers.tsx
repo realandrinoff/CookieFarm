@@ -56,7 +56,7 @@ export const ShopOfferWindow = ({ typeOfCookie, hasButtercup, hasChocolateChip }
           {typeOfCookie == "chocolatechip"
             ? "Chocolate Chip Cookie"
             : typeOfCookie == "buttercup"
-            ? "Butterscotch Cup Cookie"
+            ? "Buttercup Cookie"
             : "unknown type"}
         </Text>
         <Text

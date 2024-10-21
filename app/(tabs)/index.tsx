@@ -31,8 +31,8 @@ export default function homeScreen(){
                     value: 1
                 })
             }
-        }> +1 level</Text>
-        <Text
+        }> +1 level</Text> */}
+        {/* <Text
         style={styles.testButtons}
         onPress={()=> {
             dispatchLevel({
