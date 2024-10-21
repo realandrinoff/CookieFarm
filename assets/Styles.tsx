@@ -27,12 +27,12 @@ export const styles = StyleSheet.create({
   },
 
   tabName: {
+  
     fontStyle: "normal",
     fontFamily: "papyrus",
     textAlign: "center",
     fontSize: 50,
     padding: 10,
-
     borderRadius: 10,
     color: "#121212",
     fontWeight: "bold",
@@ -324,7 +324,8 @@ export const styles = StyleSheet.create({
     borderWidth: 3,
     borderRadius: 10,
     fontSize: 30,
-    alignSelf: "center"
+    alignSelf: "center",
+    marginBottom: 20,
   },
   noWebSupport: {
     top: "50%",
