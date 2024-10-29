@@ -1,0 +1,2 @@
+- [@andrinoff](https://linktr.ee/andrinoff) - Maintenance, Developer, Idea
+- [@smira](https://github.com/smira) - Help
