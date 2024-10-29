@@ -3,6 +3,7 @@
 <div align="center">
 
 <br />
+
 [![Status](https://img.shields.io/badge/status-under-maintenance-white)]()
 [![Version](https://img.shields.io/badge/version-1.0-green)](https://github.com/realandrinoff/cookie-farm/releases)
 
