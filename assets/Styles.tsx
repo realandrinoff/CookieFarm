@@ -28,6 +28,7 @@ export const styles = StyleSheet.create({
 
   tabName: {
   
+    
     fontStyle: "normal",
     fontFamily: "papyrus",
     textAlign: "center",
